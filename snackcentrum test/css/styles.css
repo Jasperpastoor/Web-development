@@ -1,0 +1,83 @@
+/*colour pattern: https://colorhunt.co/palette/fdd2bfff6b6bb61919012443*/
+body{
+margin: 0;
+border: 0;
+font-size: 100%;
+font-weight: normal;
+vertical-align: baseline;
+background: transparent;
+text-align: center;
+
+
+}
+table{
+  margin: 10px auto;
+  table-layout: fixed;
+  width: 50%;
+  color: black;
+  line-height: normal;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+tr,td{
+  border-collapse: collapse;
+  border: none;
+  text-shadow: 1px 1px 1px black;
+  line-height: 2;
+  border-bottom-style: groove;
+}
+
+th{
+  border-bottom-style: solid;
+  border-width: thick;
+  margin: auto;
+  text-align: center;
+}
+
+.top-container{
+  border-top: 2rem;
+  border-left: 2rem;
+  color: white;
+  font-size: 3rem;
+
+}
+
+.middle-container{
+  font-size: 2rem;
+  margin: auto;
+  line-height: 2;
+}
+
+.bottom-container{
+  background-color: orange;
+  width: 100%;
+  height: 10rem;
+  align-content: center;
+}
+
+.snackcentrum{
+  position: absolute;
+  left:10%;
+  top:10%;
+}
+
+.menu{
+  position: absolute;
+  left: 10px;
+  top: 30rem;
+  width: 20rem;
+  border-bottom-style: none;
+
+}
+
+.snackbar-img{
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.img-cropper{
+  max-height: 25rem;
+  overflow: hidden;
+}
